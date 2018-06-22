@@ -14,6 +14,7 @@
 		2DE3755E20DD8C6D00EF3E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE3755D20DD8C6D00EF3E37 /* Assets.xcassets */; };
 		2DE3756120DD8C6D00EF3E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE3755F20DD8C6D00EF3E37 /* LaunchScreen.storyboard */; };
 		2DE3756C20DD8C6E00EF3E37 /* Autolayout_in_Code_Image_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3756B20DD8C6E00EF3E37 /* Autolayout_in_Code_Image_ExampleUITests.swift */; };
+		2DE3757720DD8CF800EF3E37 /* BayBridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DE3757620DD8CF800EF3E37 /* BayBridge.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2DE3756720DD8C6E00EF3E37 /* Autolayout in Code Image ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autolayout in Code Image ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE3756B20DD8C6E00EF3E37 /* Autolayout_in_Code_Image_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autolayout_in_Code_Image_ExampleUITests.swift; sourceTree = "<group>"; };
 		2DE3756D20DD8C6E00EF3E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE3757620DD8CF800EF3E37 /* BayBridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BayBridge.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		2DE3755220DD8C6D00EF3E37 /* Autolayout in Code Image Example */ = {
 			isa = PBXGroup;
 			children = (
+				2DE3757620DD8CF800EF3E37 /* BayBridge.jpg */,
 				2DE3755320DD8C6D00EF3E37 /* AppDelegate.swift */,
 				2DE3755520DD8C6D00EF3E37 /* ViewController.swift */,
 				2DE3755720DD8C6D00EF3E37 /* Main.storyboard */,
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE3756120DD8C6D00EF3E37 /* LaunchScreen.storyboard in Resources */,
+				2DE3757720DD8CF800EF3E37 /* BayBridge.jpg in Resources */,
 				2DE3755E20DD8C6D00EF3E37 /* Assets.xcassets in Resources */,
 				2DE3755920DD8C6D00EF3E37 /* Main.storyboard in Resources */,
 			);
@@ -365,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDM8336QES;
 				INFOPLIST_FILE = "Autolayout in Code Image Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDM8336QES;
 				INFOPLIST_FILE = "Autolayout in Code Image Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
